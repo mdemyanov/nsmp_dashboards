@@ -10,7 +10,7 @@
 ## Скриншоты
 
 ### Дашборд: заявки по услуге
-![]('https://raw.githubusercontent.com/mdemyanov/nsmp-dashboards/screenshots/DASHBOARD - service calls by SLM Service.png')
+![заявки по услуге](https://raw.githubusercontent.com/mdemyanov/nsmp_dashboards/screenshots/DASHBOARD_service_calls_by_SLM_Service.png)
 
 
 
