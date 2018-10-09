@@ -29,7 +29,7 @@
 
 ### Загрузить вспомогательные модули
 
-1. Откройте (GIST)[https://gist.github.com/mdemyanov/cc9af0741303846e6231c46f38e504d4] с актуальной версией модуля.
+1. Откройте [GIST](https://gist.github.com/mdemyanov/cc9af0741303846e6231c46f38e504d4) с актуальной версией модуля.
 2. Создайте в системе скриптовые модули с кодами из названий файлов:
     1. flatDashboard.groovy -> flatDashboard 
     2. flatDashboardParams.groovy -> flatDashboardParams 
