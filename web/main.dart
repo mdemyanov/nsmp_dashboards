@@ -12,6 +12,7 @@ void main() async {
   String settings = SmpAPI.contentCode;
   String currentUid = SmpAPI.currentUUID;
   String selector = '#dashboard';
+  String loading = '#loading';
   var de = querySelector(selector);
   var body = querySelector('body');
 
@@ -27,5 +28,6 @@ void main() async {
 //  Map<String, dynamic> dashboardData = await data();
   Dashboard dashboard = new Dashboard(settings, dashboardData);
   dashboard.render(selector);
+  querySelector(loading).style.display = 'none';
   body.style.height = de.style.minHeight;
 }
