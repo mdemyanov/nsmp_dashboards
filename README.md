@@ -38,7 +38,7 @@
 
 ### Загрузить приложение
 
-1. Перейдите в директорию [release](../tree/master/release)
+1. Перейдите в директорию [release](tree/master/release)
 2. Скачайте самый новый архив
 3. Загрузите на свой стенд по [инструкции](http://www.naumen.ru/docs/sd/NSD_manual.htm#setting_advanced/applications.htm#02)
 
@@ -67,15 +67,15 @@
 
 #### Описание настроек контента
 
-![Заявки по каманде](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/settings.jpg)
+![Заявки по каманде](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/settings.jpg?sanitize=true)
 
 - callsByStates - код дашборда (любая уникальная комбинация букв латинского алфавита)
 - \#donut - тип диаграммы, доступные типы:
- * radialBar ![radialBar](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/radialBar.svg)
- * pie ![pie](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/simple-pie-chart.svg)
- * donut ![pie](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/simple-donut-chart.svg)
- * line ![pie](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/basic-line-chart.svg)
- * bar (горизонтальные колонки), column (вертикальные) ![pie](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/basic-bar-chart.svg)
+ * radialBar ![radialBar](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/radialBar.svg?sanitize=true)
+ * pie ![pie](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/simple-pie-chart.svg?sanitize=true)
+ * donut ![pie](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/simple-donut-chart.svg?sanitize=true)
+ * line ![pie](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/basic-line-chart.svg?sanitize=true)
+ * bar (горизонтальные колонки), column (вертикальные) ![pie](https://github.com/mdemyanov/nsmp_dashboards/raw/master/screenshots/basic-bar-chart.svg?sanitize=true)
 - @fqn-class$case - код метакласса объектов для диаграммы, например, task или task$task
 - @sourceAttr-attrCode - код связи объектов диаграммы с карточкой текущего объекта
 - @groupAttr-attrCode - атрибут, по которому производится группировка
