@@ -38,7 +38,7 @@
 
 ### Загрузить приложение
 
-1. Перейдите в директорию [release](..tree/master/release)
+1. Перейдите в директорию [release](https://github.com/mdemyanov/nsmp_dashboards/tree/master/release)
 2. Скачайте самый новый архив
 3. Загрузите на свой стенд по [инструкции](http://www.naumen.ru/docs/sd/NSD_manual.htm#setting_advanced/applications.htm#02)
 
