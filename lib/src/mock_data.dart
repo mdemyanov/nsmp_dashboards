@@ -22,8 +22,7 @@ Future<Map<String, dynamic>> data() async {
       {
         "count": 100,
         "UUID": "userReport\$2309648",
-        "title": "07.08.2018 13:53 - 14.08.2018 13:53",
-        "color": "2A6763"
+        "title": "07.08.2018 13:53 - 14.08.2018 13:53"
       },
       {
         "count": 70,

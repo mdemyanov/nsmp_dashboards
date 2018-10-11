@@ -9,12 +9,13 @@ const String moduleCode = 'flatDashboard';
 const String getDashboard = 'getDashboardData';
 
 void main() async {
-  String settings = SmpAPI.contentCode;
-  String currentUid = SmpAPI.currentUUID;
   String selector = '#dashboard';
   String loading = '#loading';
-  var de = querySelector(selector);
-  var body = querySelector('body');
+
+  String settings = SmpAPI.contentCode;
+  String currentUid = SmpAPI.currentUUID;
+
+
 
   String postUrl =
       '?func=modules.$moduleCode.$getDashboard&params=requestContent,user';
@@ -29,5 +30,4 @@ void main() async {
   Dashboard dashboard = new Dashboard(settings, dashboardData);
   dashboard.render(selector);
   querySelector(loading).style.display = 'none';
-  body.style.height = de.style.minHeight;
 }
