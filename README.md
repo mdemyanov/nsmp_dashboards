@@ -36,7 +36,7 @@
     1. flatDashboard.groovy -> flatDashboard 
     2. flatDashboardParams.groovy -> flatDashboardParams 
     
-**Внимание!** Оставьте код модуля flatDashboard без зименений. Дополнительные правила поиска и фильтрации вы можете 
+**Внимание!** Оставьте код модуля flatDashboard без изменений. Дополнительные правила поиска и фильтрации вы можете 
 внести в модуль flatDashboardParams.
 
 ### Загрузить приложение
