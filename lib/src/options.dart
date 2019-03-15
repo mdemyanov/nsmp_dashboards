@@ -11,7 +11,7 @@ class Options {
   }
 
 //'height': '${_data.series.length*30}px'
-  Map toMap() {
+  Map<String, dynamic> toMap() {
     _options.addAll(getColors());
     _options.addAll(<String, dynamic>{
       'tooltip': <String, dynamic>{'followCursor': true}
